@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/maintain.css" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="fullContainer">
+        <!--header-->
+        <div class="header">
+            <h1>Fitzory Catholic Bookshop</h1>
+        </div>
+
+        <!--menu-->
+        <div class="nav">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="site.html">Site Map</a></li>
+              <li><a href="search.html">Catalogue Search</a></li>
+              <li><a href="result.html">Result</a></li>
+              <li><a href="maintain.html">Maintenance</a></li>
+            </ul>
+      </div>
+
+      <!-- Main Content Section -->
+      <div class="mainContent">
+          <div class="wrapContent">
+              <div class="spacer">
+
+              </div>
+              <div class="maintainHeader">
+                    <p>Add A Product with following details</p>
+              </div>
+              <div class="spacer">
+
+              </div>
+              <div class="dataAddSection">
+                <form action="maintainhtml.py" method="post">
+                    <table class="center">
+                        <tr>
+                            <td>Categories</td>
+                            <td><input type="text" name="categories"/></td>
+                        </tr>
+                        <tr>
+                            <td>ISBN</td>
+                            <td><input type="text" name="isbn"/></td>
+                        </tr>
+                        <tr>
+                            <td>Title</td>
+                            <td><input type="text" name="title"/></td>
+                        </tr>
+                        <tr>
+                            <td>Author</td>
+                            <td><input type="text" name="author"/></td>
+                        </tr>
+                        <tr>
+                            <td>Publisher</td>
+                            <td><input type="text" name="publisher"></td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td><input type="text" name="price"></td>
+                        </tr>
+                        <tr>
+                            <td>Quantity</td>
+                            <td><input type="text" name="quantity"></td>
+                        </tr>
+                        <tr>
+                            <td>Image</td>
+                            <td><input type="button" value="Browse"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">ADD</button></td>
+                        </tr>
+                    </table>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+
+      <!--footer-->
+      <div class="footer">
+        <p>Copyright 2018. All Rights Reserved by <b>Fitzory Catholic Bookshop</b>.</p>
+      </div>
+
+    </div>
+  </body>
+</html>
