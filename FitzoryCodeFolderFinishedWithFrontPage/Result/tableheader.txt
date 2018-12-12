@@ -1,0 +1,8 @@
+Image
+Title
+ISBN Number
+Category
+Author(s)/Artist(s)
+Publisher
+Price
+Quantity-on-hand
